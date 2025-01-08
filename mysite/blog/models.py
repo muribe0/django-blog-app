@@ -1,6 +1,7 @@
 from django.conf import settings
 from django.db import models
 from django.utils import timezone
+from django.urls import reverse
 
 # Create your models here.
 
@@ -44,3 +45,21 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            self.slug = slugify(self.name)
+
+            original_slug = self.slug
+            counter = 1
+            while Post.objects.filter(slug=self.slug).exists():
+                self.slug = f'{original_slug}-{counter}'
+                counter += 1
+
+        super().save(*args, **kwargs)
+
+    def get_absolute_url(self):
+        return reverse(
+                'blog:post_detail',
+                args=[self.slug]
+                )

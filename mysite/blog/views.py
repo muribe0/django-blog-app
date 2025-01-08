@@ -11,9 +11,9 @@ def post_list(request):
             {'posts': posts}
             )
 
-def post_detail(request, id):
+def post_detail(request, slug):
     try:
-        post = Post.published.get(id=id)
+        post = Post.published.get(slug=slug)
     except Post.DoesNotExist:
         raise Http404("No post found")
     return render(
@@ -22,11 +22,12 @@ def post_detail(request, id):
             {'post': post}
             )
 
-def post_detail_alt(request, id):
+def post_detail_alt(request, slug):
     post = get_object_or_404(
             Post,
             id=id,
-            status=Post.Status.PUBLISHED)
+            status=Post.Status.PUBLISHED,
+            slug=slug)
     return render(request,
                   'blog/post/detail.html',
                   {'post': post}
