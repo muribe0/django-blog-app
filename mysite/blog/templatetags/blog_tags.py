@@ -1,6 +1,9 @@
 from django import template
 from ..models import Post
 from django.db.models import Count
+import markdown
+from django.utils.safestring import mark_safe
+
 
 register = template.Library()
 
@@ -19,3 +22,6 @@ def get_most_commented_posts(count=5):
     # annotate method is used to add a field to the query set that is not part of the model
     return Post.published.annotate(total_comments=Count('comments')).order_by('-total_comments')[:count]
 
+@register.filter(name='markdown')
+def markdown_format(text):
+    return mark_safe(markdown.markdown(text)) # mark_safe is used to mark the output as safe HTML content
