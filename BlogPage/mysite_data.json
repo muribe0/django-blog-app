@@ -1,0 +1,98 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$51Wi6Db1TwobLI6Cemwcf5$00/adQaHCQF+DnKCSEcRbV/S4zsLWQBwgb7rjyVC1SU=",
+      "last_login": "2025-01-15T21:49:39.349Z",
+      "is_superuser": true,
+      "username": "muribe",
+      "first_name": "",
+      "last_name": "",
+      "email": "muribe@admin.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-01-01T00:30:41.326Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "sites.site",
+    "pk": 1,
+    "fields": {
+      "domain": "localhost:8000",
+      "name": "localhost:8000"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+      "title": "The Magic of Flowers: Nature's Most Beautiful Gift",
+      "slug": "the-magic-of-flowers-nature-s-most-beautiful-gift",
+      "author": 1,
+      "body": "# The Poetry of Petals: Nature's Living Art\r\n\r\n## The Joy of Blooms\r\n\r\nEver notice how a single flower can instantly brighten your mood? These *delicate bursts of color* manage to bring so much joy to our lives.\r\n\r\n## Engineering in Nature\r\n\r\nFlowers aren't just pretty faces – they're **incredible works of natural engineering**. Consider the sunflower:\r\n\r\n* Tracks the sun across the sky\r\n* Seeds arranged in the Fibonacci sequence\r\n* Perfect mathematical precision in nature\r\n\r\n## The Secret Language\r\n\r\nFlowers communicate through their own hidden language:\r\n\r\n1. Red roses speak of passion\r\n2. Purple irises whisper of wisdom\r\n3. Pink carnations tell tales of divine tears\r\n\r\n> The Victorians took this language of flowers (*floriography*) super seriously, sending entire messages through carefully arranged bouquets.\r\n\r\n## An Unlikely Hero\r\n\r\nMy personal favorite has to be the resilient dandelion. It transforms through three beautiful stages:\r\n\r\n* Bright yellow flower\r\n* Perfect, delicate sphere\r\n* Seeds carrying new life on the wind\r\n\r\n## Nature's Poetry\r\n\r\nThere's something deeply poetic about how these \"weeds\" persist and flourish, turning from sunshine-bright blooms into wishmaking vessels of hope.\r\n\r\n---\r\n\r\n*What's your favorite flower and the story behind why you love it?* 🌺",
+      "publish": "2025-01-01T00:31:30Z",
+      "created": "2025-01-01T00:32:45.389Z",
+      "updated": "2025-01-15T20:56:31.260Z",
+      "status": "PB"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+      "title": "The Bizarre Hidden World of Deep Sea Creatures",
+      "slug": "the-bizarre-hidden-world-of-deep-sea-creatures",
+      "author": 1,
+      "body": "# The Deep Sea Chronicles: Where Weird Meets Wonderful\r\n\r\n## Into the Abyss\r\n\r\nImagine living in a world of permanent darkness where the pressure could crush a submarine. Welcome to the deep sea, home to some of *Earth's most alien-looking creatures*!\r\n\r\n## A World Unexplored\r\n\r\nWe've only explored about 5% of our oceans, yet we keep discovering incredible beings:\r\n\r\n* The barreleye fish with its **transparent head**, looking up through its own skull\r\n* The vampire squid that turns itself inside out when threatened\r\n* Countless other mysteries waiting in the depths\r\n\r\n## The Ultimate Catfish\r\n\r\nMy personal favorite has to be the anglerfish:\r\n\r\n> Female anglerfish are like the ultimate catfishers of the sea (pun absolutely intended). They've got this little glowing lure dangling in front of their mouth, and when smaller fish come to check out the light... CHOMP!\r\n\r\n## Masters of Adaptation\r\n\r\nThese creatures have developed remarkable survival strategies:\r\n\r\n1. No sunlight? They create their own through bioluminescence\r\n2. Limited food? They've evolved to go months without eating\r\n3. High pressure? Their cells are literally built different\r\n\r\n## A Deep Perspective\r\n\r\nThe next time you're having a rough day, just remember: somewhere out there, there's a fish with a see-through head living its best life at crushing depths. *If that's not inspiring, I don't know what is!*\r\n\r\n---\r\n\r\n*What's the weirdest deep sea creature you've heard of?* 🐠",
+      "publish": "2025-01-01T00:46:41Z",
+      "created": "2025-01-01T00:53:01.585Z",
+      "updated": "2025-01-15T20:56:13.984Z",
+      "status": "PB"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+      "title": "Why Old Video Games Just Hit Different",
+      "slug": "why-old-video-games-just-hit-different",
+      "author": 1,
+      "body": "# The Magic of Retro Gaming: When Pixels Painted Dreams\r\n\r\n## That First MIDI Note\r\n\r\nEver boot up your childhood games and instantly get hit with a wave of nostalgia? Like, that MIDI music starts playing and suddenly you're **10 years old again**, sitting cross-legged way too close to the TV.\r\n\r\n## Art Through Limitation\r\n\r\nHere's the thing about retro games: they had to do *so much* with so little. While modern games paint with millions of colors, developers back then:\r\n\r\n* Created entire worlds with just a handful of pixels\r\n* Turned technical limitations into artistic innovation\r\n* Composed unforgettable soundtracks within tiny file sizes\r\n\r\n## The Chrono Trigger Effect\r\n\r\nI recently replayed Chrono Trigger and let me tell you – that storytelling holds up. Consider its achievements:\r\n\r\n1. No voice acting needed\r\n2. No fancy cutscenes required\r\n3. Just perfectly paced pixel art\r\n4. Text that made you deeply care about every character\r\n\r\n## The Beautiful Struggle\r\n\r\nRemember when games didn't hold your hand? The experience included:\r\n\r\n> No quest markers, no auto-saves every 2 minutes, just you and a cryptic hint from some random NPC about where to go next.\r\n\r\n* Drawing your own maps\r\n* Writing down passwords\r\n* Trading secrets with friends at school\r\n\r\n## The Pixel-Perfect Past\r\n\r\nSure, we've got photorealistic graphics and open worlds now, but sometimes I miss when:\r\n* A jump sound effect was just *boop*\r\n* A princess was just 16 pixels tall\r\n\r\n---\r\n\r\n*What's your favorite retro game that still holds up today? Share your nostalgic favorites below!*",
+      "publish": "2025-01-01T00:53:01Z",
+      "created": "2025-01-01T00:54:14.296Z",
+      "updated": "2025-01-15T20:55:58.214Z",
+      "status": "PB"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 4,
+    "fields": {
+      "title": "Why Your Brain Loves That \"Eureka!\" Moment",
+      "slug": "why-your-brain-loves-that-eureka-moment",
+      "author": 1,
+      "body": "# The Science of \"Aha!\": Understanding Your Brain's Eureka Moments\r\n\r\n## The Chemistry of Clarity\r\n\r\nEver had that sudden burst of clarity when you finally solve a problem? That rush of satisfaction isn't just in your head... well, actually, it *literally is*! \r\n\r\n## The Dopamine Dance\r\n\r\nScientists found that your brain releases a tiny burst of dopamine when you solve a puzzle or finally understand something that's been bugging you. It's like your brain's way of **high-fiving itself** for being clever.\r\n\r\n> Evolution really said \"let's make learning addictive\" and honestly? Pretty smart move.\r\n\r\n## The Background Process\r\n\r\nThe wild part? These moments often happen when we're **NOT** actively trying to solve the problem. Consider these common scenarios:\r\n\r\n* Shower thoughts \r\n* Random solutions during walks\r\n* Breakthrough ideas while relaxing\r\n\r\nYour brain needs downtime to connect the dots. While you're relaxing, your brain is backstage, quietly rearranging puzzle pieces until *BAM* – everything clicks.\r\n\r\n## Historical Eureka Moments\r\n\r\nGreat discoveries often emerge from unexpected places:\r\n\r\n1. Archimedes in his bathtub\r\n2. Newton under the apple tree\r\n3. Countless solutions found while doing dishes\r\n4. Those pre-sleep breakthrough moments\r\n\r\n## The Paradoxical Solution\r\n\r\nThe next time you're stuck on something, try taking a break. Let your brain do its thing in the background. Sometimes the best way to solve a problem is to stop thinking about it *(how's that for a brain twist?)*\r\n\r\n---\r\n\r\n*What's your most memorable \"eureka\" moment? Was it in the shower? On a walk? Share your story below!*",
+      "publish": "2025-01-08T01:28:16Z",
+      "created": "2025-01-08T01:29:37.730Z",
+      "updated": "2025-01-15T20:55:41.164Z",
+      "status": "PB"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 5,
+    "fields": {
+      "title": "Succulent Obsession: Why These Desert Gems Are Taking Over Our Windowsills",
+      "slug": "succulent-obsession-why-these-desert-gems-are-taking-over-our-windowsills",
+      "author": 1,
+      "body": "# The Secret Life of Succulents: Nature's Resilient Rebels\r\n\r\n## Meet the Plant World's Cats\r\n\r\nThose chonky little leaves that somehow thrive on neglect and still look Instagram-worthy? Succulents are basically the plant world's cats - *independent, gorgeous, and slightly judging you*.\r\n\r\n## The Art of Survival\r\n\r\nThese clever plants have evolved a remarkable strategy: storing water in their leaves like **living water balloons**. Consider their resilience:\r\n\r\n* Desert drought? No problem\r\n* Forgot to water for three weeks? \"Whatever, human, we got this\"\r\n* Harsh conditions? They're built for this\r\n\r\n## Masters of Multiplication\r\n\r\nTheir reproduction abilities are nothing short of extraordinary:\r\n\r\n1. Drop a leaf? Boom, baby plant\r\n2. Snap off a piece? Congratulations, plant grandparent\r\n3. These tiny green immortals plot world domination one propagation at a time\r\n\r\n## The Ironic Truth\r\n\r\nDespite being labeled as \"easy care,\" we still somehow manage to challenge their survival. The number one crime? \r\n\r\n> Loving them too much. Turns out drowning your succulent in daily water is like force-feeding a camel at a water park. They're just not into it.\r\n\r\n---\r\n\r\n*Who else has turned their home into a succulent sanctuary? Share your favorite species - bonus points for your biggest plant parent fail!*",
+      "publish": "2025-01-14T01:42:40Z",
+      "created": "2025-01-14T01:43:00.734Z",
+      "updated": "2025-01-15T20:55:18.033Z",
+      "status": "PB"
+    }
+  },
+]
